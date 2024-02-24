@@ -4,7 +4,7 @@
     "pattern": [
         " # ",
         "#!#",
-        " #"
+        " # "
     ],
     "key": {
         "#": {
@@ -16,6 +16,7 @@
 
     },
     "result": {
-        "item": "lantern-mod:red_lantern"
+        "item": "lantern-mod:red_lantern",
+        "count":1
     }
 }

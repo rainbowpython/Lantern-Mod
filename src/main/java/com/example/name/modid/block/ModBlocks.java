@@ -23,6 +23,7 @@ public class ModBlocks {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LanternMod.MOD_ID, name), block);
     }
+    
 
     private static Item registerBlockItem(String name, Block block){
         
