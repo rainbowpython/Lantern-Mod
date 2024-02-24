@@ -18,7 +18,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block RED_LANTERN = registerBlock("red_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     public static final Block YELLOW_LANTERN = registerBlock("yellow_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
-
+    public static final Block GREEN_LANTERN = registerBlock("green_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LanternMod.MOD_ID, name), block);

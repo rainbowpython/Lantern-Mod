@@ -1,6 +1,9 @@
 package com.example.name.modid;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.item.ItemRenderer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +23,6 @@ public class LanternMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
-
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_LANTERN, RenderLayer.getCutout());
 	}
 }
