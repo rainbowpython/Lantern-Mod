@@ -1,3 +1,4 @@
 {
-    "item:lantern-mod.red_lantern" : "Red Lantern"
+    "block.lantern-mod.red_lantern" : "Red Lantern",
+    "block.lantern-mod.yellow_lantern" : "Yellow Lantern"
 }

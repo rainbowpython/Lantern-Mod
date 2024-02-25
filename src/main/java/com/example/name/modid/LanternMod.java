@@ -24,5 +24,6 @@ public class LanternMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_LANTERN, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_LANTERN, RenderLayer.getCutout());
 	}
 }
