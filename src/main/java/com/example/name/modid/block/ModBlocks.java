@@ -36,5 +36,7 @@ public class ModBlocks {
 
     private static void addItemsToCreativeTab(FabricItemGroupEntries entries){
         entries.add(RED_LANTERN);
+        entries.add(YELLOW_LANTERN);
+        entries.add(GREEN_LANTERN);
     }
 }
