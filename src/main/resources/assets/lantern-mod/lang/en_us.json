@@ -1,5 +1,8 @@
 {
     "block.lantern-mod.red_lantern" : "Red Lantern",
     "block.lantern-mod.yellow_lantern" : "Yellow Lantern",
-    "block.lantern-mod.green_lantern" : "Green Lantern"
+    "block.lantern-mod.green_lantern" : "Green Lantern",
+    "block.lantern-mod.orange_lantern" : "Orange Lantern",
+    "block.lantern-mod.lime_lantern" : "Lime Lantern",
+    "block.lantern-mod.blue_lantern" : "Blue Lantern"
 }
