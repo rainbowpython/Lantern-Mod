@@ -8,5 +8,6 @@
     "block.lantern-mod.light_blue_lantern" : "Light Blue Lantern",
     "block.lantern-mod.purple_lantern" : "Purple Lantern",
     "block.lantern-mod.cyan_lantern" : "Cyan Lantern",
-    "block.lantern-mod.magenta_lantern" : "Magenta Lantern"
+    "block.lantern-mod.magenta_lantern" : "Magenta Lantern",
+    "block.lantern-mod.pink_lantern" : "Pink Lantern"
 }
