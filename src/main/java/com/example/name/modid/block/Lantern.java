@@ -5,6 +5,7 @@ import net.minecraft.block.LanternBlock;
 
 public class Lantern extends LanternBlock{
     public Lantern(Settings settings) {
+        //test
         super(settings);
     }
 }
