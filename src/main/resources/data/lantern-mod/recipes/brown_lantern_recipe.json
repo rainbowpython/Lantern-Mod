@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category" : "misc",
+    "pattern": [
+        " # ",
+        "#!#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brown_stained_glass"
+        },
+        "!":{
+            "item": "minecraft:soul_lantern"
+        }
+
+    },
+    "result": {
+        "item": "lantern-mod:brown_lantern",
+        "count":1
+    }
+}

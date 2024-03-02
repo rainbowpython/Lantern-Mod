@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "hanging=false":{
+            "model": "lantern-mod:block/brown_lantern"
+        },
+        "hanging=true":{
+            "model": "lantern-mod:block/brown_hanging_lantern"
+        }
+    }
+}
