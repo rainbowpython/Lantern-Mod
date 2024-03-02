@@ -28,7 +28,7 @@ public class ModBlocks {
     public static final Block MAGENTA_LANTERN = registerBlock("magenta_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     public static final Block PINK_LANTERN = registerBlock("pink_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     public static final Block BROWN_LANTERN = registerBlock("brown_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
-
+    public static final Block BLACK_LANTERN = registerBlock("black_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LanternMod.MOD_ID, name), block);
@@ -58,7 +58,7 @@ public class ModBlocks {
         entries.add(MAGENTA_LANTERN);
         entries.add(PINK_LANTERN);
         entries.add(BROWN_LANTERN);
-
+        entries.add(BLACK_LANTERN);
         
     }
 }
