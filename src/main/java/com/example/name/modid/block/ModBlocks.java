@@ -41,6 +41,7 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModBlocks::addItemsToCreativeTab);
+        
     }
 
     private static void addItemsToCreativeTab(FabricItemGroupEntries entries){
