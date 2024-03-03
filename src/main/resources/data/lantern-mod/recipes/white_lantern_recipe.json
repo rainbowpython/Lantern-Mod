@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category" : "misc",
+    "pattern": [
+        " # ",
+        "#!#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_stained_glass"
+        },
+        "!":{
+            "item": "minecraft:soul_lantern"
+        }
+
+    },
+    "result": {
+        "item": "lantern-mod:white_lantern",
+        "count":1
+    }
+}
