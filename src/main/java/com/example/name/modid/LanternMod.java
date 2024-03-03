@@ -36,5 +36,6 @@ public class LanternMod implements ModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_LANTERN, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_LANTERN, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_LANTERN, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_GRAY_LANTERN, RenderLayer.getCutout());
 	}
 }
