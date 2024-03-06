@@ -32,6 +32,24 @@ public class ModBlocks {
     public static final Block DARK_GRAY_LANTERN = registerBlock("dark_gray_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     public static final Block LIGHT_GRAY_LANTERN = registerBlock("light_gray_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
     public static final Block WHITE = registerBlock("white_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN).luminance(15)));
+
+    public static final Block TINTED_RED_LANTERN = registerBlock("tinted_red_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_YELLOW_LANTERN = registerBlock("tinted_yellow_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_GREEN_LANTERN = registerBlock("tinted_green_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_ORANGE_LANTERN = registerBlock("tinted_orange_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_LIME_LANTERN = registerBlock("tinted_lime_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_CYAN_LANTERN = registerBlock("tinted_cyan_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_BLUE_LANTERN = registerBlock("tinted_blue_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_LIGHT_BLUE_LANTERN = registerBlock("tinted_light_blue_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_PURPLE_LANTERN = registerBlock("tinted_purple_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_MAGENTA_LANTERN = registerBlock("tinted_magenta_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_PINK_LANTERN = registerBlock("tinted_pink_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_BROWN_LANTERN = registerBlock("tinted_brown_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_BLACK_LANTERN = registerBlock("tinted_black_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_DARK_GRAY_LANTERN = registerBlock("tinted_dark_gray_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_LIGHT_GRAY_LANTERN = registerBlock("tinted_light_gray_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+    public static final Block TINTED_WHITE = registerBlock("tinted_white_lantern", new Lantern(FabricBlockSettings.copyOf(Blocks.SOUL_LANTERN)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LanternMod.MOD_ID, name), block);
