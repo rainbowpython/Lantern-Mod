@@ -14,7 +14,7 @@
     "block.lantern-mod.black_lantern" : "Black Lantern",
     "block.lantern-mod.dark_gray_lantern" : "Dark Gray Lantern",
     "block.lantern-mod.light_gray_lantern" : "Light Gray Lantern",
-    "block.lantern-mod.white_lantern" : "White",
+    "block.lantern-mod.white_lantern" : "White Lantern",
 
     "block.lantern-mod.tinted_red_lantern" : "Tinted Red Lantern",
     "block.lantern-mod.tinted_yellow_lantern" : "Tinted Yellow Lantern",
@@ -31,5 +31,5 @@
     "block.lantern-mod.tinted_black_lantern" : "Tinted Black Lantern",
     "block.lantern-mod.tinted_dark_gray_lantern" : "Tinted Dark Gray Lantern",
     "block.lantern-mod.tinted_light_gray_lantern" : "Tinted Light Gray Lantern",
-    "block.lantern-mod.tinted_white_lantern" : "Tinted White"
+    "block.lantern-mod.tinted_white_lantern" : "Tinted White Lantern"
 }

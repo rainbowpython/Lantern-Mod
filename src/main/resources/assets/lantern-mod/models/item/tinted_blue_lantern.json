@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "lantern-mod:item/tinted_blue_lantern"
+    }
+  }
