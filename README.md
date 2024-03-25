@@ -5,8 +5,8 @@
 Minecraft Mod for fabric that adds colored lanterns
 
 ## Features
-
-WIP
+16 Colored Lanterns
+16 Tinted Lanterns
 
 ## Installation
 
@@ -14,3 +14,7 @@ WIP
 2. Locate your Minecraft mods folder.
 3. Copy the downloaded mod file into the mods folder.
 4. Launch Minecraft and enjoy the mod!
+
+## dependencies
+Fabic Loader: 15.7
+Minecraft: 1.20.4
