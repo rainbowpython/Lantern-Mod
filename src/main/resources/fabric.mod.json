@@ -2,16 +2,17 @@
 	"schemaVersion": 1,
 	"id": "lantern-mod",
 	"version": "${version}",
-	"name": "Lantern Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Colored Lanterns",
+	"description": "Simple mod adding colored lanterns, with darker, tinted varients!",
 	"authors": [
-		"Me!"
+		"Rainbowython",
+		"DragonOfShadows"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/rainbowpython/Lantern-Mod/tree/main"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/lantern-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
