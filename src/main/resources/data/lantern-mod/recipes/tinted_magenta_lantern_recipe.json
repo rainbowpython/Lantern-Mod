@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category" : "misc",
+    "pattern": [
+        " # ",
+        "#!#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:tinted_glass"
+        },
+        "!":{
+            "item": "lantern-mod:magenta_lantern"
+        }
+
+    },
+    "result": {
+        "item": "lantern-mod:tinted_magenta_lantern",
+        "count":1
+    }
+}
