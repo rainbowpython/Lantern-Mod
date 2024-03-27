@@ -4,7 +4,7 @@
             "model": "lantern-mod:block/tinted_green_lantern"
         },
         "hanging=true":{
-            "model": "lantern-mod:block/titned_green_hanging_lantern"
+            "model": "lantern-mod:block/tinted_green_hanging_lantern"
         }
     }
 }
