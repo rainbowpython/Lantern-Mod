@@ -15,6 +15,6 @@ Minecraft Mod for fabric that adds colored lanterns
 3. Copy the downloaded mod file into the mods folder.
 4. Launch Minecraft and enjoy the mod!
 
-## dependencies
+## Dependencies
 Fabic Loader: 15.7
 Minecraft: 1.20.4
