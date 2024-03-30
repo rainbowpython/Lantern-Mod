@@ -7,4 +7,6 @@ public class Lantern extends LanternBlock{
     public Lantern(Settings settings) {
         super(settings);
     }
+
+    
 }
