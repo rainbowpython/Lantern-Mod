@@ -8,5 +8,4 @@ public class Lantern extends LanternBlock{
         super(settings);
     }
 
-    
 }
