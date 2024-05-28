@@ -2,10 +2,12 @@ package com.example.name.modid.block;
 
 import com.example.name.modid.LanternMod;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
+
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -58,7 +60,7 @@ public class ModBlocks {
 
     private static Item registerBlockItem(String name, Block block){
         
-        return Registry.register(Registries.ITEM, new Identifier(LanternMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, new Identifier(LanternMod.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks() {

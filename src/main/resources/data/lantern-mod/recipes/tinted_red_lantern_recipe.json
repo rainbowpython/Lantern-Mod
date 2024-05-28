@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:tinted_red_stained_glass"
+            "item": "minecraft:tinted_glass"
         },
         "!":{
             "item": "lantern-mod:red_lantern"
